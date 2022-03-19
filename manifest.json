@@ -1,0 +1,12 @@
+{
+  "name": "RemoveRocketNavBar",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Remove navbars from your website",
+  "content_scripts": [
+    {
+      "matches": ["https://bootcamp.rocketacademy.co/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

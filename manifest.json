@@ -1,8 +1,8 @@
 {
-  "name": "RemoveRocketNavBar",
+  "name": "Remove RA Navbar",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "Remove navbars from your website",
+  "description": "Remove navbars from the RA gitbook",
   "content_scripts": [
     {
       "matches": ["https://bootcamp.rocketacademy.co/*"],

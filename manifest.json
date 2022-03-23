@@ -5,7 +5,10 @@
   "description": "Remove navbars from the RA gitbook",
   "content_scripts": [
     {
-      "matches": ["https://bootcamp.rocketacademy.co/*"],
+      "matches": [
+        "https://bootcamp.rocketacademy.co/*",
+        "https://codingbasics.rocketacademy.co/*"
+      ],
       "js": ["content.js"]
     }
   ]

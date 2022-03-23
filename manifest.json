@@ -1,6 +1,6 @@
 {
   "name": "Remove RA Navbar",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "description": "Remove navbars from the RA gitbook",
   "content_scripts": [
